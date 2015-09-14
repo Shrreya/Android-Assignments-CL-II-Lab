@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.shrreya.context.CompanyContextActivity">
+
+    <!--Text View for Name-->
+    <TextView
+        android:id="@+id/NameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--Text View for Email-->
+    <TextView
+        android:id="@+id/EmailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NameTextView"/>
+
+    <!--Text View for Number-->
+    <TextView
+        android:id="@+id/NumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EmailTextView" />
+
+    <!--Text View for Qualification-->
+    <TextView
+        android:id="@+id/QualificationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NumberTextView" />
+
+    <!--Text View for Area of Specialization-->
+    <TextView
+        android:id="@+id/AreaOfSpecializationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/QualificationTextView" />
+
+    <!--Text View for Experience-->
+    <TextView
+        android:id="@+id/ExperienceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AreaOfSpecializationTextView" />
+
+</RelativeLayout>
